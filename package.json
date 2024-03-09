@@ -7,7 +7,8 @@
   "main": "canary.js",
   "scripts": {
     "start": "node canary.js",
-    "bootstrap": "npx playwright install"
+    "bootstrap": "npx playwright install",
+    "format": "prettier --write ."
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,33 @@
   "homepage": "https://github.com/spencerlepine/portfolio-site-contact-form-canary#readme",
   "devDependencies": {
     "playwright": "1.42.1"
+  },
+  "dependencies": {
+    "husky": "^4.3.8",
+    "lint-staged": "^10.5.4",
+    "prettier": "^2.7.1"
+  },
+  "prettier": {
+    "printWidth": 140,
+    "tabWidth": 2,
+    "singleQuote": true,
+    "semi": true,
+    "trailingComma": "es5",
+    "bracketSpacing": true,
+    "arrowParens": "avoid",
+    "proseWrap": "always",
+    "requirePragma": false,
+    "insertPragma": false,
+    "endOfLine": "lf"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.(js|jsx|ts|tsx|json|css|md|html)": [
+      "prettier --write"
+    ]
   }
 }
