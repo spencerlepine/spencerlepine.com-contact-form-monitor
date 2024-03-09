@@ -17,4 +17,5 @@ jobs:
           node-version: 20
           cache: 'npm'
       - run: npm i
+      - run: npm run bootstrap # install playwright browsers
       - run: npm start
