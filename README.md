@@ -3,7 +3,7 @@
 Web crawler for weekly automated form submission on my Portfolio Site Contact Form. Built with [Cypress](https://www.cypress.io/) and
 [GitHub Actions](https://docs.github.com/en/actions)
 
-<img width="741" alt="Screenshot 2024-03-08 at 6 05 46 PM" src="https://github.com/spencerlepine/portfolio-site-contact-form-canary/assets/60903378/1a193d17-96fd-4cd1-8ca0-92967aff3316">
+<img width="741" alt="Diagram" src="./diagram.png">
 
 ## Usage
 
