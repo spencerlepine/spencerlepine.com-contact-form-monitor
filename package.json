@@ -1,0 +1,25 @@
+{
+  "type": "module",
+  "name": "portfolio-site-contact-form-canary",
+  "version": "1.0.0",
+  "description": "Weekly Automated Web Crawler to detect Portfolio Site's Contact Form outage",
+  "author": "Spencer Lepine (@spencerlepine)",
+  "main": "canary.js",
+  "scripts": {
+    "start": "node canary.js",
+    "bootstrap": "npx playwright install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spencerlepine/portfolio-site-contact-form-canary.git"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spencerlepine/portfolio-site-contact-form-canary/issues"
+  },
+  "homepage": "https://github.com/spencerlepine/portfolio-site-contact-form-canary#readme",
+  "devDependencies": {
+    "playwright": "1.42.1"
+  }
+}
