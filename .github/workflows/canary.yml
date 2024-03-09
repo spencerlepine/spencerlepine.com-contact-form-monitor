@@ -17,4 +17,4 @@ jobs:
           node-version: 20
           cache: 'npm'
       - run: npm i
-     - run: npm start
+      - run: npm start
