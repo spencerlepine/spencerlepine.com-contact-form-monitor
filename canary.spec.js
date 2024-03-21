@@ -10,7 +10,7 @@
  */
 
 const config = {
-  contactPageUrl: 'https://spencerlepine.github.io/contact.html',
+  contactPageUrl: 'https://spencerlepine.com', // https://spencerlepine.github.io/contact.html
   nameInputDataTestId: 'contact-form-name-input',
   emailInputDataTestId: 'contact-form-email-input',
   messageInputDataTestId: 'contact-form-message-input',
